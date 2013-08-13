@@ -8,9 +8,10 @@ gem 'rails', '3.2.14'
 group :production
 	gem `pg`
 end
+
 group :development, :test do
 	gem 'sqlite3'
-end`
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
